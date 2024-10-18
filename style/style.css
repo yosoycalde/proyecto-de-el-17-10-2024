@@ -1,0 +1,32 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 219, 186);
+  color: #000000;
+}
+#main-header {
+  background-color: #000000;
+  color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+}
+.blog-title {
+  margin: 0;
+  font-size: 36px;
+}
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.nav-list li a {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-list li a:hover {
+  text-decoration: underline;
+}
